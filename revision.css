@@ -1,0 +1,42 @@
+body{
+    background-image : url(form_bg.jpg);
+    background-repeat: no-repeat;   
+    background-size : 100% 100% ;  
+    color : white ; 
+}   
+h1{
+    text-align: center;
+}
+.container{
+    /* border : 3px solid black ;  */
+    width : 650px ; 
+    margin : auto ; 
+    padding : 20px ; 
+    background-color : rgba(0, 0, 0, 0.596) ; 
+    border-radius: 8px ;
+}
+label{
+    font-size : 20px ; 
+    font-family: cursive ;
+}
+.input{
+    width : 100% ; 
+    margin-top : 8px ; 
+    padding : 7px ; 
+    border-radius : 10px ; 
+    outline : none ; 
+    font-size : 18px ; 
+    transition : all 0.4s ; 
+}
+.input:hover{
+    background-color : black ;
+    color : white ; 
+}
+.input:focus{
+    background-color: black;
+    color : white ; 
+}
+
+
+
+
